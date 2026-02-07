@@ -10,7 +10,7 @@ The code and notebooks in this repository explore the fundamentals of building r
 
 - **main.ipynb**: Main Jupyter notebook containing exercise solutions and implementations
 - **requirements.txt**: Python dependencies required to run the notebooks and code
-- **qwen3/**: Additional resources and tokenizer files for working with models
+- **CH2/qwen3/**: Additional resources and tokenizer files for working with models
 
 ## Getting Started
 
