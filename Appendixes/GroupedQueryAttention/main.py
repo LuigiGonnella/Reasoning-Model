@@ -81,7 +81,7 @@ class GroupedQueryAttention(nn.Module):
         self.group_size, dim=1 
         ) #take the two heads of keys and repeat them until they become 8
 
-        #repeat_interleave physicaly copies the keys, wasting memory
+        #repeat_interleave physically copies the keys, wasting memory
         #in optimized CUDA kernels this operation is implemented through 'broadcasting'
         #--> the same memory location is read multiple times without any wasting
         
