@@ -76,7 +76,7 @@ def reset_kv_cache(self):
             blk.att.reset_cache()
         self.current_pos = 0
     
-#6) USING CACHE IN GEENRATION
+#6) USING CACHE IN GENERATION
 def generate_text_simple_cached(
         model, idx, max_new_tokens, use_cache=True
     ):
